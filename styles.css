@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Sans';
+  src: url('fonts/Sans.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Serif';
+  src: url('fonts/Serif.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 64px 32px 32px;
+}
+
+@media (min-width: 48rem) {
+  main {
+    padding-top: 160px;
+  }
+}
+
+h1 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #020618;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-family: 'Serif', Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  color: #62748E;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 15px;
+  color: #1D293D;
+  line-height: 24px;
+}
+
+p a {
+  font-weight: 500;
+  color: #020618;
+  text-decoration-color: #CAD5E2;
+}
+
+nav {
+  margin-top: 24px;
+}
+
+.links-heading {
+  font-weight: 450;
+  color: #62748E;
+  margin-bottom: 8px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+nav a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #020618;
+  text-decoration-color: #CAD5E2;
+}
